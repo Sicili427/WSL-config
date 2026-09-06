@@ -22,6 +22,7 @@ return {
             'typescript',
             'glsl',
             'python',
+            'html',
         },
     },
 }
