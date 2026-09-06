@@ -24,5 +24,8 @@ return {
             'python',
             'html',
         },
+        matchup = {
+            enable = true,
+        }
     },
 }

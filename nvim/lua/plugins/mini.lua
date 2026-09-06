@@ -15,8 +15,8 @@ return {
                 -- Window Commands
                 { mode = 'n', keys = '<C-w>' },
 
-                { mode = 'n', keys = '['},
-                { mode = 'n', keys = ']'},
+                { mode = 'n', keys = '[' },
+                { mode = 'n', keys = ']' },
 
                 { mode = 'n', keys = 'z' },
             },
