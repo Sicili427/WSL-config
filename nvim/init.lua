@@ -19,7 +19,27 @@ require("core.keymaps")
 require("core.options")
 
 ------- Enable Treesitter Highlighting -------
-vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 'lua', 'c', 'java', 'javascript', 'jsx', 'typescript', 'glsl', 'python', 'html', },
-  callback = function() vim.treesitter.start() end,
+require("nvim-treesitter.configs").setup({
+    auto_install = true,
+    ensure_installed = {
+        'c',
+        'lua',
+        'java',
+        'javascript',
+        'typescript',
+        'glsl',
+        'python',
+        'html',
+        'verilog',
+        'css',
+    },
+    matchup = {
+        enable = true,
+    },
+    highlight = {
+        enable = true,
+    },
+    index = {
+        enable = true,
+    }
 })

@@ -12,20 +12,4 @@ return {
             },
         },
     },
-    opts = {
-        auto_install =  true,
-        ensure_installed = {
-            'c',
-            'lua',
-            'java',
-            'javascript',
-            'typescript',
-            'glsl',
-            'python',
-            'html',
-        },
-        matchup = {
-            enable = true,
-        }
-    },
 }
